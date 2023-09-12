@@ -1,0 +1,148 @@
+
+
+.inputContainer{
+
+    display: inline-flex;
+    position:relative;
+
+}
+
+.mainTitle{
+
+    font-family: 'Poltawski Nowy', serif;
+    font-size:6vh;
+    font-style: bold;
+    background: linear-gradient(to right, rgb(73, 74, 77), rgb(25, 27, 31), rgb(0, 0, 0));
+    background:linear-gradient(to right, rgb(250, 204, 21), rgb(249, 250, 251), rgb(94, 234, 212));
+    -webkit-background-clip: text;
+    color: transparent; 
+    margin-left: 5px;
+  
+    
+ }
+
+ .mainInput{
+
+  margin: 15px 1px 10px 20px;
+
+ }
+
+.emojiPickerContainer {
+
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    border: solid 1px white;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-sizing: border-box;
+    top: 25px;
+    border-radius: 5px;
+
+}
+
+.accentPickerContainer{
+
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    border: solid 1px white;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-sizing: border-box;
+    top: 25px;
+    border-radius: 5px;
+
+
+}
+
+
+.emojiPickerButton{
+
+ display: inline-block;
+ background-color:transparent;
+ border: none;
+ cursor: pointer;
+
+
+}
+
+
+.emojiList {
+
+display: flex;
+flex-wrap: wrap;
+margin-top: 10px;
+
+}
+
+.accentList{
+
+display: flex;
+flex-wrap: wrap;
+margin-top: 10px;
+    
+}
+
+
+.emojiButton {
+
+    border: none;
+    font-size: 28px;
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+
+}
+.accentButton {
+
+    border: none;
+    font-size: 28px;
+    background-color:transparent;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+
+}
+
+
+
+.emojiButton:hover{
+
+background-color: white;
+
+}
+
+.accentButton:hover {
+
+    background-color: white;
+    color: #222;
+    
+    }
+
+
+
+.search .searchAccent {
+
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+
+}
+
+
+

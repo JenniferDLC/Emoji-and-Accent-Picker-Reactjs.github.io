@@ -1,6 +1,6 @@
 export const data = [
 
-    {   
+    {  
         symbol: "🙂️",
         name: "cara alegre",
         keywords: "smiling face happy",
