@@ -5,7 +5,6 @@
   "homepage": "https://JenniferDLC.github.io/Emoji-and-Accent-Picker-Reactjs.github.io",
   "type": "module",
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
